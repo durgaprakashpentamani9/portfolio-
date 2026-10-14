@@ -1,0 +1,26 @@
+export const projects = [
+  {
+    number: '01',
+    name: 'AI Virtual Interview System',
+    category: 'AI Application / Full-Stack Development',
+    description: 'An AI-powered mock interview application that helps users practice interview questions and review their interview performance through an interactive experience.',
+    technologies: ['React', 'Vite', 'Tailwind CSS', 'FastAPI', 'PostgreSQL', 'Gemini API', 'Whisper', 'WebSocket', 'MediaPipe'],
+    github: 'https://github.com/durgaprakashpentamani9/AI_Virtual_interview',
+    demo: 'https://aivirtualinterview.vercel.app',
+    demoLabel: 'Live Demo',
+    icon: '✳',
+    thumbnail: 'interview',
+  },
+  {
+    number: '02',
+    name: 'Home Credit LAP Voice Agent',
+    category: 'Voice AI / Conversational AI',
+    description: 'A voice-agent project designed around Home Credit Loan Against Property conversations, using structured prompt design and a live voice demo to explore customer interaction workflows.',
+    technologies: ['Prompt Design', 'Voice AI', 'Retell AI'],
+    github: 'https://github.com/durgaprakashpentamani9/voice-agent',
+    demo: 'https://agent.retellai.com/orb/agent_626241fd20cf2a828c31597c2f?token=9c6f487d4b6fc2166c8dd13f2c737e52',
+    demoLabel: 'Try Voice Demo',
+    icon: '◉',
+    thumbnail: 'voice-agent',
+  },
+];
